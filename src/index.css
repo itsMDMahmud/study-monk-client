@@ -1,0 +1,206 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.login-page {
+  background-image: url("https://images.unsplash.com/photo-1533327325824-76bc4e62d560?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  /* z-index: 9999; */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-bt-span {
+  font-size: 25px;
+  font-weight: 600;
+}
+.image-and-button .img-button{
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.img-button{
+  height: 200px;
+  width: 342px;
+  background-color: #ee5253;
+  color: white;
+  font-size: 65px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 10px;
+  padding: 32px;
+  text-align: center;
+  line-height: 2.5rem;
+}
+.image-and-button{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.image-and-button img{
+  max-width: 90%;
+  position: relative;
+  left: 10%;
+  /* bottom: 0%; */
+}
+.image-and-button{
+  position: relative;
+  
+}
+.image-and-button .img-button{
+  position: absolute;
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+.common-div{
+  width: 586px;
+  height: 180px;
+  margin: 25px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.common-h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+
+}
+.common-p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+.description{
+  font-size: 16px;
+  line-height: 26px;
+  margin: 32px auto;
+}
+.love-and-enjoy-features{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.love-enjoy-part{
+  padding: 10px;
+}
+.orange-line-header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.orange-line{
+  height: 106px;
+  width: 5px;
+  background-color: #ee5253;
+}
+.feature-heading{
+  font-size: 45px;
+  font-weight: 700;
+  
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .feature-heading{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+  .orange-line{
+    height: 86px;
+    width: 5px;
+    background-color: #ff900e;
+}
+  .orange-line-header{
+    padding: 5px;justify-content: center;
+    align-items: center;
+}
+  .img-bt-span {
+    font-size: 15px;
+  }
+
+  .image-and-button .img-button{
+    top: none;
+    bottom: -30%;
+    left: none;
+    transform: none;
+    position: relative;
+  }
+  .img-button{
+    /* display: block; */
+    height: 80px;
+    width: 171px;
+    background-color: #ee5253;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    line-height: 1.2rem;
+  }
+  .image-and-button img{
+    left: 0;
+    max-width: 95vw;
+    
+}
+.image-and-button .img-button{
+    top: none;
+    bottom: -30%;
+    left: none;
+    transform: none;
+    position: relative;
+}
+.common-div{
+  height: 185px;
+  width: 280px;
+  margin: 20px auto;
+  text-align: center;
+}
+.common-h3{
+  font-size: 20px;
+}
+.feature-details{
+  margin: 20px auto;
+}
+.love-and-enjoy-features{
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+  
+}
+.love-enjoy-part{
+  /* padding: 20px; */
+  text-align: center;
+}
+  
+
+
+
+
+
+
+}
+
+
