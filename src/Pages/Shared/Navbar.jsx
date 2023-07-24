@@ -93,7 +93,7 @@ const Navbar = () => {
           className="main-logo btn btn-ghost normal-case text-xl"
         >
           
-          <h2 className="text-5xl">S. Monk</h2>
+          <h2 className="text-5xl text-[#ee5253]">Study M.</h2>
         </Link>
         <Link
           Link
@@ -116,14 +116,14 @@ const Navbar = () => {
           <>
            
             <Link onClick={handleLogOut}>
-              <button className="btn bg-[#1a2836] rounded-lg hover:bg-gray-600 text-white">
+              <button className="btn  bg-[#ee5253] rounded-lg hover:bg-[#ff7979] text-white">
                 logout
               </button>
             </Link>
           </>
         ) : (
           <Link to="login">
-            <button className="btn text-white bg-[#1a2836] rounded-lg hover:bg-gray-600">
+            <button className="btn text-white bg-[#ee5253] rounded-lg hover:bg-[#ff7979]">
               Login
             </button>
           </Link>

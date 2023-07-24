@@ -20,7 +20,7 @@ const Candidates = () => {
 
   const handleSearch = () => {
     fetch(
-      `https://study-monk-server.vercel.app/users/${searchText}`
+      `https://study-monk-server.vercel.app/searchTitle/${searchText}`
     )
       .then((res) => res.json())
       .then((data) => setAllUsers(data));
@@ -40,7 +40,7 @@ const Candidates = () => {
           />
           <button
             onClick={handleSearch}
-            class="px-4 py-2 bg-[#1a2836] text-white rounded-lg hover:bg-gray-600"
+            class="px-4 py-2  text-white rounded-lg bg-[#ee5253] hover:bg-[#ff7979]"
           >
             Search
           </button>

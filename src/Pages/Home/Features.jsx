@@ -35,7 +35,7 @@ const Features = () => {
                 </div>
                 <div data-aos="fade-right" data-aos-duration="1000" className="common-div">
                     <h3 className="common-h3">Learning Environment</h3>
-                    <div className="common-p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised...........</div>
+                    <div className="common-p">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised something...........</div>
                 </div>
             </div>
         </div>

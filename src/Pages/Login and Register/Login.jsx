@@ -39,10 +39,10 @@ const Login = () => {
           <div className="card-body">
             <form onSubmit={handleLogin}>
             <div className="form-control">
-            <h2 className="text-3xl font-bold text-center">Login</h2>
+            <h2 className="text-3xl font-bold text-center text-[#ee5253] ">Login</h2>
             <p className="text-red-500 font-semibold">{error}</p>
               <label className="label">
-                <span className="label-text">Email</span>
+                <span className="label-text text-[#ee5253]">Email</span>
               </label>
               <input
                 type="email"
@@ -53,7 +53,7 @@ const Login = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Password</span>
+                <span className="label-text text-[#ee5253]">Password</span>
               </label>
               <input
                 type="password"

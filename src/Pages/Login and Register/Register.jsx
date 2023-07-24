@@ -71,9 +71,9 @@ const Register = () => {
           <div className="card-body">
           <form onSubmit={handleSignUp}>
             <div className="form-control">
-            <h2 className="text-3xl font-bold text-center">Registration</h2>
+            <h2 className="text-3xl font-bold text-center text-[#ee5253]">Registration</h2>
               <label className="label">
-                <span className="label-text">Name</span>
+                <span className="label-text text-[#ee5253]">Name</span>
               </label>
               <input
                 type="text"
@@ -85,7 +85,7 @@ const Register = () => {
             
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Job Rules</span>
+                <span className="label-text text-[#ee5253]">Job Rules</span>
               </label>
               <input
                 type="jobRules"
@@ -97,7 +97,7 @@ const Register = () => {
 
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Location</span>
+                <span className="label-text text-[#ee5253]">Location</span>
               </label>
               <input
                 type="location"
@@ -109,7 +109,7 @@ const Register = () => {
 
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Email</span>
+                <span className="label-text text-[#ee5253]">Email</span>
               </label>
               <input
                 type="email"
@@ -120,7 +120,7 @@ const Register = () => {
             </div>
             <div className="form-control">
               <label className="label">
-                <span className="label-text">Password</span>
+                <span className="label-text text-[#ee5253]">Password</span>
               </label>
               <input
                 type="password"
